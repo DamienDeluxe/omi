@@ -826,3 +826,57 @@
     "deleted": false
   }
 ]
+{
+  "id": "lie-v-101",
+  "name": "Lie Detector",
+  "author": "Damien Ietto",
+  "description": "Analyzes a conversation between two speakers for signs of dishonesty, focusing on inconsistent statements, hesitations, over-compensation, vague responses, emotional tone, distancing language, and response times. It concludes with a percentage indicating each speaker's likelihood of deception.",
+  "image": "/apps/logos/lie-detector-logo.jpg",
+  "memories": true,
+  "chat": false,
+  "capabilities": ["memories"],
+  "chat_prompt": "Your chat prompt here",
+  "memory_prompt": {
+    "InconsistentStatements": {
+      "description": "Identify any inconsistent statements.",
+      "details": "Provide conflicting statements and specify what they contradict."
+    },
+    "HesitationsAndFillerWords": {
+      "description": "Highlight moments where each speaker hesitates, uses filler words like uh, um, or pauses unnaturally.",
+      "context": "Focus on critical questions."
+    },
+    "OverCompensation": {
+      "description": "Detect if either speaker provides overly detailed explanations where simple answers would suffice.",
+      "flag": "Possible signs of over-compensation.",
+      "reason": "Explain why the extra detail appears unnecessary."
+    },
+    "VagueResponses": {
+      "description": "Note any vague responses.",
+      "behavior": "Identify instances where a speaker avoids answering direct questions or changes the subject."
+    },
+    "EmotionalTone": {
+      "description": "Compare the emotional tone with the content of each speaker's conversation.",
+      "mismatch": "Flag any mismatches.",
+      "examples": "Provide examples of tone used versus topic discussed."
+    },
+    "DistancingLanguage": {
+      "description": "Identify if either speaker uses distancing language.",
+      "details": "Look for avoidance of first-person pronouns, use of third-person references, or passive voice.",
+      "examples": "List examples for both speakers."
+    },
+    "ResponseTime": {
+      "description": "Track the response time for key questions for each speaker.",
+      "details": "Record the questions and the delay if either takes longer than usual to answer."
+    },
+    "RepeatedPhrases": {
+      "description": "Identify any repeated phrases or ideas from each speaker.",
+      "context": "Focus on phrases aimed at convincing the listener.",
+      "examples": "Provide examples."
+    },
+    "DeceptionLikelihood": {
+      "description": "At the end of the analysis, calculate and provide a percentage indicating the likelihood of each speaker being deceptive or truthful.",
+      "method": "Reflect the balance of probabilities."
+    }
+  },
+  "deleted": false
+}
