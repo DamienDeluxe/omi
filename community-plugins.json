@@ -827,17 +827,17 @@
   },
 
 {
-  "id": "lie-detector",
-  "name": "Lie Detector",
-  "author": "Damien Ietto",
-  "description": "Analyzes a conversation between two speakers for signs of dishonesty, focusing on inconsistent statements, hesitations, over-compensation, vague responses, emotional tone, distancing language, and response times. It concludes with a percentage indicating each speaker's likelihood of deception.",
-  "image": "/plugins/logos/lie-detector-logo.jpg",
-  "capabilities": [
-      "memories",
+    "id": "lie-detector",
+    "name": "Lie Detector",
+    "author": "Damien Ietto",
+    "description": "Analyzes a conversation between two speakers for signs of dishonesty, focusing on inconsistent statements, hesitations, over-compensation, vague responses, emotional tone, distancing language, and response times. It concludes with a percentage indicating each speaker's likelihood of deception.",
+    "image": "/plugins/logos/lie-detector-logo.jpg",
+    "capabilities": [
+        "memories"
     ],
-  "memory_prompt":"Analyze the conversation involving two speakers and detect potential signs of dishonesty. For each speaker, perform the following tasks: Identify any inconsistent statements. Provide conflicting statements and specify what they contradict. Highlight moments where each speaker hesitates, uses filler words like 'uh,' 'um,' or pauses unnaturally, especially when answering critical questions. Detect if either speaker provides overly detailed explanations where simple answers would suffice. Flag these as possible signs of over-compensation and explain why they appear unnecessary. Note any vague responses or instances where either speaker avoids answering direct questions or changes the subject. Compare the emotional tone with the content of each speaker's conversation, and flag any mismatches. Provide examples of the tone used versus the topic discussed. Identify if either speaker uses distancing language, avoiding first-person pronouns and using third-person references or passive voice. List examples for both speakers. Track the response time for key questions for each speaker. If either takes longer than usual to answer, record the questions and the delay in response. Identify any repeated phrases or ideas from each speaker that seem aimed at convincing the listener. Provide examples. At the end of the analysis, calculate and provide a percentage indicating the likelihood of each speaker being deceptive or truthful, reflecting the balance of probabilities.",
-   "deleted": false
-   }  
+    "memory_prompt": "Analyze the conversation involving two speakers and detect potential signs of dishonesty. For each speaker, perform the following tasks: Identify any inconsistent statements. Provide conflicting statements and specify what they contradict. Highlight moments where each speaker hesitates, uses filler words like 'uh,' 'um,' or pauses unnaturally, especially when answering critical questions. Detect if either speaker provides overly detailed explanations where simple answers would suffice. Flag these as possible signs of over-compensation and explain why they appear unnecessary. Note any vague responses or instances where either speaker avoids answering direct questions or changes the subject. Compare the emotional tone with the content of each speaker's conversation, and flag any mismatches. Provide examples of the tone used versus the topic discussed. Identify if either speaker uses distancing language, avoiding first-person pronouns and using third-person references or passive voice. List examples for both speakers. Track the response time for key questions for each speaker. If either takes longer than usual to answer, record the questions and the delay in response. Identify any repeated phrases or ideas from each speaker that seem aimed at convincing the listener. Provide examples. At the end of the analysis, calculate and provide a percentage indicating the likelihood of each speaker being deceptive or truthful, reflecting the balance of probabilities.",
+    "deleted": false
+}
     
  ]    
 
